@@ -1,9 +1,10 @@
 body{
     margin: 0px;
-    
-    background: url(../Bilder/Schule_HTL_Mdling_in_Pokemonstyle.webp) no-repeat center center sticky ;
-    background-size:auto 100%;
-    min-height: 100vh;
+
+    background: url(../Bilder/Schule_HTL_Mdling_in_Pokemonstyle.webp);
+    background-size: cover;
+    background-position: fixed;
+    -webkit-overflow-scrolling: touch;
     
     font-family: Candara,bold;
 }
