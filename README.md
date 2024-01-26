@@ -1,4 +1,4 @@
-[[### Hi there 👋](https://guiding-map.github.io/Guiding-Map/)
+https://guiding-map.github.io/Guiding-Map/
 
 <!--
 **Guiding-Map/Guiding-Map** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
