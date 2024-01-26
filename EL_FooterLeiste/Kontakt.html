@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Visitenkarte</title>
+    <style>
+       .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+    margin-top: 50px; 
+    text-align: center;
+}
+        
+        .profilbild {
+          border-radius: 50%;
+          width: 150px;
+          height: 150px;
+          border: 3px solid #73AD21;
+        }
+        
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            background: url(../Bilder/Schule_HTL_Mdling_in_Pokemonstyle.webp) no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightgray;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh; 
+        }
+
+        .test {
+            margin-top: 25px; 
+            margin-bottom: 25px; 
+        }
+
+        .visitenkarte {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .visitenkarte img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .name {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .position {
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .kontakt {
+            margin-top: 20px;
+        }
+
+        .kontakt a {
+            display: block;
+            color: #3498db;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+
+        .kontakt a:hover {
+            text-decoration: underline;
+        }
+        
+        .back img {
+            width: 50px; 
+            height: 50px; 
+        }
+  
+       
+    .visitenkarte2 {
+    background-color: white;
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+ 
+}
+
+.back2 img {
+    width: 285px;
+    height: 100px;
+    border-radius: 50%;
+}
+    </style>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="visitenkarte">
+            <img src="../Bilder/Schule_HTL_Mdling_in_Pokemonstyle.webp" alt="Dein Name">
+            <div class="name">Kontakt</div>
+            <div class="position">Guiding-Map</div>
+    
+            <div class="kontakt">
+                <form action="mailto:Guiding.Map.GM@gmail.com" method="post" id="contactForm">
+                    <label for="message">Schreiben Sie uns eine Rezession</label><br><br>
+                    <textarea id="message" name="message" placeholder="Schreibe deine Nachricht hier..." rows="4" cols="32" required></textarea><br><br>
+                    <input type="submit" value="Abschicken">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div class="visitenkarte2"> 
+        <div class="back2">
+            <a href="../index.html"><img src="../Bilder/zurück.png" title="Zurück" alt="Bild für Zurücklauf der Webseite"></a>			
+        </div>
+    </div>
+</body>
+</html>
