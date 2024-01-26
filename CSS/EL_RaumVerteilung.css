@@ -2,7 +2,6 @@ pabody{
     margin: 0px;
     background: url(../Bilder/Schule_HTL_Mdling_in_Pokemonstyle.webp) no-repeat center center fixed ;
     background-size:cover;
-    min-height: 100vh;
     font-family: Candara,bold;
 }
 .Ueberschriftbox{
